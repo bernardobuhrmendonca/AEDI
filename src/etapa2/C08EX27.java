@@ -1,7 +1,7 @@
 package etapa2;
 
 //Autor: Bernardo Buhr Alves Mendonça
-//Função: imprimir uma série de asteriscos
+//Função: imprimir uma série de asteriscos 
 public class C08EX27 {
         public static void main(String[] args) {
             double ast;

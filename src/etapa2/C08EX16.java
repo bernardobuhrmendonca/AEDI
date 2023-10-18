@@ -12,7 +12,7 @@ public class C08EX16 {
                 cont++;
             }
         }
-        media = (float) (soma / cont);
+        media = soma / cont;
         System.out.println("Média dos números impares = " + media);
     }
 }

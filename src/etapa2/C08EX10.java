@@ -26,7 +26,7 @@ public class C08EX10 {
                  nomePM = nome;
             }
         }
-        media = (float) custoT / quant;
+        media = custoT / quant;
         System.out.printf("a)Custo total= R$%1.2f \nb)Média dos Custos Parciais= R$%1.2f \nc)Insulmo Parcial de Maior Custo: ",custoT,media);
         System.out.println(nomePM);
         teclado.close();

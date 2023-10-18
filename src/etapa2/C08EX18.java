@@ -1,8 +1,7 @@
 package etapa2;
 
 import java.util.Scanner;
-//Autor: Bernardo Buhr Alves Mendonça
-//Função: imprimie os multiplos de um inteiro de 1 à 9
+
 public class C08EX18 {
     public static void main(String[] args) {
         int n, mult;
