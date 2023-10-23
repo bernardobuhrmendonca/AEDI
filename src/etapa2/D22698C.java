@@ -38,8 +38,6 @@ public class D22698C {
                     if (valorP <= 0.0) {
                         System.out.println("Valor de prestação inválido. Digite novamente.");
                     }
-
-                    ++cont;
                 } while (valorP <= 0.0);
 
                 double valorPF;
@@ -55,7 +53,7 @@ public class D22698C {
                         maiorM = multa;
                         nomeM = nomeC;
                     }
-
+                    ++cont;
                     somaM += multa;
                 }
 
