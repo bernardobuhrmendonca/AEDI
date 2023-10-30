@@ -8,14 +8,14 @@ public class C12EX14 {
         int numeros[] = new int[100];
         int numeroP;
         for (int aux = 0; aux<numeros.length; aux++){
-            System.out.println("Indique o número do bilhete " + aux + 1);
+            System.out.println("Indique o número do bilhete " + (aux + 1));
             numeros[aux] = teclado.nextInt();
         }
         System.out.println("Indique o número do bilhete premiado.");
         numeroP = teclado.nextInt();
         for (int aux = 0; aux<numeros.length; aux++){
             if (numeros[aux]==numeroP){
-                System.out.println("O bilhete indicado na posição " + aux + 1 + " foi premiado! Parabéns!");
+                System.out.println("O bilhete indicado na posição " + (aux + 1) + " foi premiado! Parabéns!");
             }else {
                 System.out.println("Infelizmente nenhum dos bilhetes é o premiado, boa sorte na próxima!");
             }

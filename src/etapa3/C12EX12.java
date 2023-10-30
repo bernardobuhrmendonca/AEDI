@@ -20,7 +20,7 @@ public class C12EX12 {
         }
         System.out.println("Alunos com a maior nota:");
         for (int aux = 0; aux<nota.length;aux++){
-            if (notaM<=nota[aux]){
+            if (notaM==nota[aux]){
                 System.out.println(nome[aux]);
             }
         }
