@@ -36,5 +36,6 @@ public class C12EX16 {
         for (int aux=0; aux<10; aux++){
             System.out.println((aux+1) + ") " + nome[aux] + ", " + estado[aux]);
         }
+        teclado.close();
     }
 }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class C12EX04 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        int vet[] = new int[20];
+        int[] vet = new int[20];
         int cont=0, cont2=1;
         for (int aux = 0; aux< vet.length; aux++){
             cont++;

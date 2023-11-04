@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class C12EX01 {
     public static void main(String[] args) {
-        int vet[] = new int[10];
+        int[] vet = new int[10];
         Scanner teclado = new Scanner(System.in);
         for (int aux = 0; aux < vet.length; aux++) {
             System.out.println("indique um número inteiro.");
