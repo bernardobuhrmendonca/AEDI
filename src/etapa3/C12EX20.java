@@ -24,5 +24,6 @@ public class C12EX20 {
             }
         }
         System.out.println("Média: " + media);
+        teclado.close();
     }
 }

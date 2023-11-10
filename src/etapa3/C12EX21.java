@@ -16,5 +16,6 @@ public class C12EX21 {
         for (int aux = 0; aux< numero.length; aux+=2) {
             System.out.println(numero[aux]);
         }
+        teclado.close();
     }
 }
