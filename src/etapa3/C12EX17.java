@@ -14,7 +14,7 @@ public class C12EX17 {
         }
         System.out.println("Números pares:");
         for (int aux=0; aux< num.length; aux++){
-            if (num[aux]/2==0){
+            if (num[aux]%2==0){
                 soma += num[aux];
                 cont++;
                 System.out.println(num[aux]);
