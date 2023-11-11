@@ -28,6 +28,9 @@ public class C12EX16 {
                     tempS = estado[aux];
                     estado[aux] = estado[aux+1];
                     estado[aux+1] = tempS;
+                    tempS = nome[aux];
+                    nome[aux] = nome[aux+1];
+                    nome[aux+1] = tempS;
                 }
             }
             cont--;

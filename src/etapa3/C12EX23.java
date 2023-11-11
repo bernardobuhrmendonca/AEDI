@@ -28,5 +28,6 @@ public class C12EX23 {
         for (int aux=0; aux< vet1.length; aux++){
             System.out.println(vet2[aux]);
         }
+        teclado.close();
     }
 }
