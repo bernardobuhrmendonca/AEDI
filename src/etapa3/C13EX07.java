@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class C13EX07 {
     public static void main(String[] args) {
-
+        ex7();
     }
     public static void ex7(){
         Scanner teclado = new Scanner(System.in);
