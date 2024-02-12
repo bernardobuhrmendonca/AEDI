@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: método main da função anterior
+
 import java.util.Scanner;
 
 import static etapa3.C13EX02A.ex2;

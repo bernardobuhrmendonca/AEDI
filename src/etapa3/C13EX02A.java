@@ -1,8 +1,11 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: retornar o valor de f(x) de acordo com o valor de x
+
 public class C13EX02A {
     public static double ex2 (double x) {
-        double resultado=0;
+        double resultado;
         if (x==4){
             resultado = 0;
         } else if (x<4) {

@@ -1,13 +1,16 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: formatar o nome indicado para a norma ABNT e imprimi-lo, e o método main
+
 import java.util.Scanner;
 
 public class C13EX08 {
     public static void main(String[] args) {
-        ex08();
+        ex8();
     }
 
-    public static void ex08() {
+    public static void ex8() {
         String nome;
 
         Scanner teclado = new Scanner(System.in);

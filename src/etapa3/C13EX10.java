@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: imprimir um nome mas com apenas uma letra por linha e método main
+
 import java.util.Scanner;
 
 public class C13EX10 {

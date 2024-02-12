@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: indicar qual o digito numérico, de um número de no máximo 9 posições, está na posição indicada pelo usuário e método main
+
 import java.util.Scanner;
 
 public class C13EX03 {

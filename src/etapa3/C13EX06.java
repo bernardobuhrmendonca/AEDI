@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: determinar se a pessoa indicada faz parte de determinada família, ao possuir o último sobrenome igual ao indicado pelo usuário, e o método main
+
 import java.util.Scanner;
 
 public class C13EX06 {
@@ -17,7 +20,7 @@ public class C13EX06 {
             System.out.println("Indique um nome.");
             nomeC[aux] = teclado.nextLine();
             String[] quant = nomeC[aux].split(" ");
-            if (quant[quant.length].equalsIgnoreCase("Silva")){
+            if (quant[quant.length-1].equalsIgnoreCase(sobrenome)){
                 for (int aux2=0; aux2<nomeC.length; aux++){
                     nomesV[aux2] = nomeC[aux];
                 }

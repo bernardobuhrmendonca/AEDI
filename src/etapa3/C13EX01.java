@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: imprimir o resultado da fórmula que determina a distância de dois pontos do plano cartesiano
+
 import java.util.Scanner;
 
 public class C13EX01 {

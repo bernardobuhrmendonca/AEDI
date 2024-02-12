@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: função que simula um jogo de acertar um número inteiro com dicas, de acordo com os palpites do usuário, e o método main
+
 import java.util.Scanner;
 
 public class C13EX04 {

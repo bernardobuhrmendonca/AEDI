@@ -1,12 +1,16 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: função para calcuklar os dados matemáticos de determinado ângulo inidicado pelo usuário e método main
+
 import java.util.Scanner;
 
 public class C13EX05 {
+
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         double angulo;
-        System.out.println("Indique o raio.");
+        System.out.println("Indique o ângulo.");
         angulo = teclado.nextDouble();
         ex5(angulo);
         teclado.close();

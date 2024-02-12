@@ -1,13 +1,16 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: duas formas de imprimir a frase indicada com a primeira letra de cada palavra maiúscula e o método main
+
 import java.util.Scanner;
 
 public class C13EX09 {
     public static void main(String[] args) {
-        ex8a();
-        ex8b();
+        ex9a();
+        ex9b();
     }
-    public static void ex8a(){
+    public static void ex9a(){
         String frase;
         Scanner teclado = new Scanner(System.in);
         System.out.println("Indique uma frase.");
@@ -24,7 +27,7 @@ public class C13EX09 {
         }
         teclado.close();
     }
-    public static void ex8b(){
+    public static void ex9b(){
         String frase;
         Scanner teclado = new Scanner(System.in);
         System.out.println("Indique uma frase.");
