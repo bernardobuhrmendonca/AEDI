@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: preecher uma lista com as pessoas em uma fila e indicar um sistema de pesquisa para indicar a possição do nome indicado, na fila
+
 import java.util.Scanner;
 
 public class C12EX13 {

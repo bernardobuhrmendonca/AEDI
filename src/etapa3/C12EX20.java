@@ -1,12 +1,15 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: imprimir os números maiores do que o último número indicado
+
 import java.util.Scanner;
 
 public class C12EX20 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         double[] numero = new double[10];
-        double soma = 0, media = 0, cont = 0;
+        double soma = 0, media, cont = 0;
         for (int aux = 0; aux< numero.length; aux++){
             do {
                 System.out.println("Indique um número inteiro.");
@@ -23,6 +26,7 @@ public class C12EX20 {
                 System.out.println("Nenhum número é maior que o 10o.");
             }
         }
+        media = soma / cont;
         System.out.println("Média: " + media);
         teclado.close();
     }

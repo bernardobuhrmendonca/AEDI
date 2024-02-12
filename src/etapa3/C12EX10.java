@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: indicar quais dos alunos indicados pelo usuário ficaram acima da média aritmética das notas
+
 import java.util.Scanner;
 
 public class C12EX10 {
@@ -7,7 +10,7 @@ public class C12EX10 {
         Scanner teclado = new Scanner(System.in);
         String conceito;
         String nome[] = new String[50];
-        double nota[] = new double[50], soma=0, media=0;
+        double nota[] = new double[50], soma=0, media;
         for (int aux = 0; aux < nota.length; aux++) {
             System.out.println("Indique o nome do aluno.");
             nome[aux] = teclado.nextLine();

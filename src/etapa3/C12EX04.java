@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: indicar as duplas que largariam juntas na segunda bateria de acordo com a posição de cada corredor na primeira etapa
+
 import java.util.Scanner;
 
 public class C12EX04 {

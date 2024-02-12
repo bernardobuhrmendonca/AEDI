@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: sistema de pesquisa de alunos cadastrados, com o uso do número de matrícula deste
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

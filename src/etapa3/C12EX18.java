@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: imprimir a multiplicação de dois números inteiros indicados pelo usuário
+
 import java.util.Scanner;
 
 public class C12EX18 {

@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: indicar se dos bilhetes indicados pelo usuário, algum deles é o premiado
+
 import java.util.Scanner;
 
 public class C12EX14 {

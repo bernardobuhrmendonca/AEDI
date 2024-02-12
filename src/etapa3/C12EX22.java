@@ -2,6 +2,9 @@ package etapa3;
 
 import java.util.Scanner;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: imprimir o número da vaga do morador pesquisado, que será cadastrado antes pelo usuário
+
 public class C12EX22 {
     public static void main(String[] args) {
         String pesq;

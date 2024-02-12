@@ -1,6 +1,7 @@
 package etapa3;
 
-import org.w3c.dom.ls.LSOutput;
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: imprimir quais dos números indicados pelo usuário são divisores da soma de todos esses números
 
 import java.util.Scanner;
 

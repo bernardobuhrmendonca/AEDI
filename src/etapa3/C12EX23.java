@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: imprimir os números multiplos de 3
+
 import java.util.Scanner;
 
 public class C12EX23 {

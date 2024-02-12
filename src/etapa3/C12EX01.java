@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: indicar quais dos números dados pelo usuário são multiplos de 5 e 7 simultaneamente
+
 import java.util.Scanner;
 
 public class C12EX01 {

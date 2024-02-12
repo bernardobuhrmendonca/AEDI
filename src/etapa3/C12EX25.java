@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: imprimir uma frase indicada pelo usuário porem formatwando ela para haver 1 palavra por linha
+
 import java.util.Scanner;
 
 public class C12EX25 {

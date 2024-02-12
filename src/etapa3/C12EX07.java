@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: definir o conceito de cada aluno dde acordo com as respectivas notas de cada um deles
+
 import java.util.Scanner;
 
 public class C12EX07 {

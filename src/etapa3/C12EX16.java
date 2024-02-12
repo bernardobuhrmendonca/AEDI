@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: imprimir as 10 cidades mais populosas dentre as indicadas pelo usuário
+
 import java.util.Scanner;
 
 public class C12EX16 {

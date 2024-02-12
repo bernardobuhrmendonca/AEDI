@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: imprimir a classificação dos times do campeonato brasileiro e o status de classificação pra campeonatos continentais ou rebaixamento destes
+
 import java.util.Scanner;
 
 public class C12EX24 {

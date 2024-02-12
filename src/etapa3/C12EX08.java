@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: indicar a soma de números indicados pelo usuário de acordo com a ordem cronológica de indicação
+
 import java.util.Scanner;
 
 public class C12EX08 {

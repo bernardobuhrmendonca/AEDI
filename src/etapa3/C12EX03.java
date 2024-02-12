@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: indicar o quadrado dos números indicados pelo usuário
+
 import java.util.Scanner;
 
 public class C12EX03 {

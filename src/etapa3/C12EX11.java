@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: imprimir o nome do aluno com a maior nota indicada (em caso de empate o aluno indicado primeiro será o impresso)
+
 import java.util.Scanner;
 
 public class C12EX11 {

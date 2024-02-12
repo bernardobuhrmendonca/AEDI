@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: imprimir os meses do ano, que serão indicados pelo usuário
+
 import java.util.Scanner;
 
 public class C12EX06 {

@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: sistema de cadastramento e atualização de endereço de moradia de determinado cpf
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
