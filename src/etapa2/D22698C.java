@@ -29,6 +29,7 @@ public class D22698C {
                 int dataV = teclado.nextInt();
                 System.out.println("Indique o dia do pagamento.");
                 int dataP = teclado.nextInt();
+                teclado.nextLine();
 
                 double valorP;
                 do {
@@ -40,10 +41,12 @@ public class D22698C {
                     }
                 } while (valorP <= 0.0);
 
+                ++cont;
+
                 double valorPF;
                 if (dataV - dataP >= 0) {
-                    valorPF = valorP - valorP * 10.0 / 100.0;
                     somaD += valorP * 10.0 / 100.0;
+                    valorPF = valorP - valorP * 10.0 / 100.0;
                 } else if (dataP - dataV <= 5) {
                     valorPF = valorP;
                 } else {
@@ -53,7 +56,6 @@ public class D22698C {
                         maiorM = multa;
                         nomeM = nomeC;
                     }
-                    ++cont;
                     somaM += multa;
                 }
 
