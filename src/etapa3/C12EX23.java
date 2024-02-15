@@ -10,7 +10,6 @@ public class C12EX23 {
         Scanner teclado = new Scanner(System.in);
         double[] vet1 = new double[10];
         double[] vet2 = new double[10];
-        int cont = 0;
         for (int aux = 0; aux < vet1.length; aux++) {
             do {
                 System.out.println("Indique um número inteiro.");

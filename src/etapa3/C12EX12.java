@@ -8,9 +8,9 @@ import java.util.Scanner;
 public class C12EX12 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        String nome[] = new String[50];
+        String[] nome = new String[50];
         double notaM=0;
-        double nota[] = new double[50];
+        double[] nota = new double[50];
         for (int aux = 0; aux<nota.length;aux++){
             System.out.println("Indique o nome do aluno.");
             nome[aux] = teclado.nextLine();

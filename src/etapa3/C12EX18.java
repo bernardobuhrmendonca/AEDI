@@ -17,7 +17,7 @@ public class C12EX18 {
         System.out.println("indique um multiplicador ");
         num2 = teclado.nextInt();
         for(int aux=0; aux< num.length; aux++){
-            System.out.println(num[aux] + "x" + num2 + "=" + (num[aux]*num2));
+            System.out.println(num[aux] + " x " + num2 + " = " + (num[aux]*num2));
         }
         teclado.close();
     }

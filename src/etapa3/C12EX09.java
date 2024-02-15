@@ -8,7 +8,8 @@ import java.util.Scanner;
 public class C12EX09 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        double vet[] = new double[10], soma = 0;
+        double[] vet = new double[10];
+        double soma = 0;
         for (int aux = 0; aux < vet.length; aux++) {
             do {
                 System.out.println("Indique um número inteiro.");

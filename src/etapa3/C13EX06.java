@@ -21,7 +21,7 @@ public class C13EX06 {
             nomeC[aux] = teclado.nextLine();
             String[] quant = nomeC[aux].split(" ");
             if (quant[quant.length-1].equalsIgnoreCase(sobrenome)){
-                for (int aux2=0; aux2<nomeC.length; aux++){
+                for (int aux2=0; aux2 < nomeC.length; aux++){
                     nomesV[aux2] = nomeC[aux];
                 }
             }

@@ -16,7 +16,7 @@ public class C13EX09 {
         System.out.println("Indique uma frase.");
         frase = teclado.nextLine();
         String[] palavras = frase.split(" ");
-        for (int aux = 0; aux< palavras.length; aux++){
+        for (int aux = 0; aux < palavras.length; aux++){
             palavras[aux] = palavras[aux].toLowerCase();
             String[] letra = palavras[aux].split("");
             letra[0] = letra[0].toUpperCase();

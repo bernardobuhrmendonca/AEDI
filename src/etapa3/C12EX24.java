@@ -17,6 +17,7 @@ public class C12EX24 {
             time[aux] = teclado.nextLine();
             System.out.println("Indique a pontuação deste time.");
             pontuacao[aux] = teclado.nextInt();
+            teclado.nextLine();
         }
         for (int aux=0; aux< pontuacao.length-1; aux++){
             for (int x=0; x<cont; x++){

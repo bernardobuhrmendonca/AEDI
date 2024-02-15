@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: método main como menu para seleção do  método de cálculo de área
+
 import java.util.Scanner;
 
 public class C14EX02B {
@@ -28,7 +31,7 @@ public class C14EX02B {
             case 3:
                 System.out.println("Indique o valor da base.");
                 base = teclado.nextDouble();
-                System.out.println("Indiique o valor da altura.");
+                System.out.println("Indique o valor da altura.");
                 altura = teclado.nextDouble();
                 area = C14EX02A.triangulo(base, altura);
                 break;

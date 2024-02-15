@@ -34,11 +34,12 @@ public class C12EX26 {
                 System.out.println("Digite 2 para apagar o cadastro deste CPF/endereço.");
                 System.out.println("Digite 3 caso queira manter os dados desta forma.");
                 int digito = teclado.nextInt();
+                teclado.nextLine();
                 switch (digito){
                     case 1:
                         System.out.println("Digite o novo endereço.");
-                        String nEn = teclado.nextLine();
-                        endereco.set(aux,nEn);
+                        String novoEndereco = teclado.nextLine();
+                        endereco.set(aux,novoEndereco);
                         break;
                     case 2:
                         endereco.remove(aux);
@@ -56,12 +57,13 @@ public class C12EX26 {
                 System.out.println("Se sim, digite 1.");
                 System.out.println("Se não, digite 2.");
                 int dig = teclado.nextInt();
+                teclado.nextLine();
                 switch (dig){
                     case 1:
                         cpf.add(CPF);
                         System.out.println("CPF cadastrado, indique o endereço");
-                        String endN = teclado.nextLine();
-                        endereco.add(endN);
+                        String enderecoNovo = teclado.nextLine();
+                        endereco.add(enderecoNovo);
                         System.out.println("Endereço cadastrado.");
                         break;
                     case 2:

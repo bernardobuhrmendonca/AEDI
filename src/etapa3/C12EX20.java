@@ -1,7 +1,7 @@
 package etapa3;
 
 //Autor: Bernardo Buhr Alves Mendonça
-//Função: imprimir os números maiores do que o último número indicado
+//Função: imprimir os números maiores do que o último número indicado e a média destes
 
 import java.util.Scanner;
 

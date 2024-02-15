@@ -1,7 +1,7 @@
 package etapa3;
 
 //Autor: Bernardo Buhr Alves Mendonça
-//Função: imprimir os números na sequência informados, mas os números de posição ímpar serão indicados antes de qualuqer um de psição par
+//Função: imprimir os números na sequência informados, mas os números de posição ímpar serão indicados antes de qualuqer um de posição par
 //Obs: o número na posição 0 do vetor é o 1o a ser indicado, então ele representa o início da sequência das posições ímpares
 
 import java.util.Scanner;

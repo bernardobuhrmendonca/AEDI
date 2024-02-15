@@ -23,8 +23,8 @@ public class C12EX17 {
                 System.out.println(num[aux]);
             }
         }
-        media =(float) soma / cont;
-        if (soma ==0) {
+        media = (float) soma / cont;
+        if (soma == 0) {
             media = 0;
             System.out.println("nenhum dos números informados é par.");
         }

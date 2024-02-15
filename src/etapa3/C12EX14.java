@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class C12EX14 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        int numeros[] = new int[100];
+        int[] numeros = new int[100];
         int numeroP;
         for (int aux = 0; aux<numeros.length; aux++){
             System.out.println("Indique o número do bilhete " + (aux + 1));

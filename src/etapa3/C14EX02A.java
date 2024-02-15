@@ -1,5 +1,8 @@
 package etapa3;
 
+//Autor: Bernardo Buhr Alves Mendonça
+//Função: funções para cálculo de área
+
 public class C14EX02A {
     public static double quadrado(double lado){
         double area = Math.pow(lado,2);
